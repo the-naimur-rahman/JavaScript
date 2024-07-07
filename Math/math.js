@@ -1,0 +1,33 @@
+let num1 = 10.5;
+let num2 = 5.5;
+let num3 = 0.5;
+
+let absNum = Math.abs(num1);
+let ceilNum = Math.ceil(num1);
+let floorNum = Math.floor(num1);
+let roundNum = Math.round(num1);
+let truncNum = Math.trunc(num1);
+let powNum = Math.pow(num1, num2);
+let sqrtNum = Math.sqrt(num1);
+let logNum = Math.log(num1);
+let sinNum = Math.sin(num1);
+let cosNum = Math.cos(num1);
+let tanNum = Math.tan(num1);
+let signNum = Math.sign(num1);
+let maxNum = Math.max(num1, num2, num3);
+let minNum = Math.min(num1, num2, num3);
+
+console.log("Abs: " + absNum);
+console.log("Ceil: " + ceilNum);
+console.log("Floor: " + floorNum);
+console.log("Round: " + roundNum);
+console.log("Truncate: " + truncNum);
+console.log("Power: " + powNum);
+console.log("Square Root: " + sqrtNum);
+console.log("Log: " + logNum);
+console.log("Sin: " + sinNum);
+console.log("Cos: " + cosNum);
+console.log("Tan: " + tanNum);
+console.log("Sign: " + signNum);
+console.log("Maximum: " + maxNum);
+console.log("Minimun: " + minNum);

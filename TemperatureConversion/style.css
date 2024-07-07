@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(228, 225, 225);
+}
+
+h2{
+    font-size: 2em;
+    color: rgb(18, 153, 187);
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(110, 110, 110);
+}
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 1.5em;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 1.5em;
+    background-color: rgb(228, 46, 46);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(201, 28, 28);
+}
+
+#result{
+    font-size: 1.75em;
+}
