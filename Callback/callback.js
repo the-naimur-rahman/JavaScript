@@ -10,28 +10,28 @@ function sum(callAdd, callSub, callMul, callDiv, x, y){
     callDiv(div);
 }
 
-function showAddFunction(add){
+function showAdd(add){
     let showAdd = document.getElementById("showAdd");
     showAdd.textContent = "Addition: " + add;
     console.log("Addition: " + add);
 }
 
-function showSubFunction(sub){
+function showSub(sub){
     let showSub = document.getElementById("showSub");
     showSub.textContent = "Subtraction: " + sub;
     console.log("Subtraction: " + sub);
 }
 
-function showMulFunction(mul){
+function showMul(mul){
     let showMul = document.getElementById("showMul");
     showMul.textContent = "Multiplication: " + mul;
     console.log("Multiplication: " + mul);
 }
 
-function showDivFunction(div){
+function showDiv(div){
     let showDiv = document.getElementById("showDiv");
     showDiv.textContent = "Division: " + div;
     console.log("Division: " + div);
 }
 
-sum(showAddFunction, showSubFunction, showMulFunction, showDivFunction, 5, 10);
+sum(showAdd, showSub, showMul, showDiv, 5, 10);
